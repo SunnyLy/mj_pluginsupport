@@ -1,0 +1,1 @@
+java\androidx\support\magic\core\manifest_parser目录下的PluginManifest.java在打正式的loader.apk包时，记得删除。

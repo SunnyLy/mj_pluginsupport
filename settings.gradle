@@ -15,3 +15,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "PluginSupportx"
 include ':app'
+include(':sample-constant')
+include(':sample-host')
+include(':sample-host-lib')
+include(':sample-loader')
+include(':sample-manager')
+include(':sample-runtime')
