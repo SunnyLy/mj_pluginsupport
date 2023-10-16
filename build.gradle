@@ -3,13 +3,26 @@
 allprojects {
     buildscript {
         repositories {
-            google()
-            jcenter()
+
+//            maven{
+//                credentials {
+//                    username = '64452bf206be8412eb9efdbf'
+//                    password = 'NgJ43(RPwSVF'
+//                }
+//                url 'https://packages.aliyun.com/maven/repository/2409960-snapshot-bT8PeJ/'//SNAPSHOT
+////            url 'https://packages.aliyun.com/maven/repository/2409960-release-CvPKhb/' //RELEASE
+//            }
+
             maven {
                 //配置本地插件目录
                 name = "localRepo"
                 url = "D:\\workspace\\android\\git\\majiabao\\libs"
             }
+
+
+            google()
+//            jcenter()
+            mavenCentral()
         }
 
         dependencies {
@@ -23,9 +36,20 @@ allprojects {
     }
 
 
+    repositories {
+        maven {
+            //配置本地插件目录
+            name = "localRepo"
+            url = "D:\\workspace\\android\\git\\majiabao\\libs"
+        }
+        google()
+        mavenCentral()
+    }
+
+
 }
 
-apply from:"$rootDir/common.gradle"
+apply from:"$rootDir/config.gradle"
 
 task clean(type: Delete) {
     delete rootProject.buildDir

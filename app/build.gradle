@@ -34,7 +34,8 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.4.3'
+        //compose与kotlin兼容性对应关系：https://developer.android.com/jetpack/androidx/releases/compose-kotlin?hl=zh-cn
+        kotlinCompilerExtensionVersion '1.4.1'
     }
 //    packaging {
 //        resources {

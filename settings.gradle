@@ -1,23 +1,23 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
+//pluginManagement {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        gradlePluginPortal()
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
 
 rootProject.name = "PluginSupportx"
 include ':app'
 include(':sample-constant')
 include(':sample-host')
 include(':sample-host-lib')
-include(':sample-loader')
-include(':sample-manager')
-include(':sample-runtime')
+//include(':sample-loader')
+//include(':sample-manager')
+//include(':sample-runtime')

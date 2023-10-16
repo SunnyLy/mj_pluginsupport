@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -14,9 +15,6 @@
             <option value="$PROJECT_DIR$/sample-constant" />
             <option value="$PROJECT_DIR$/sample-host" />
             <option value="$PROJECT_DIR$/sample-host-lib" />
-            <option value="$PROJECT_DIR$/sample-loader" />
-            <option value="$PROJECT_DIR$/sample-manager" />
-            <option value="$PROJECT_DIR$/sample-runtime" />
           </set>
         </option>
       </GradleProjectSettings>
