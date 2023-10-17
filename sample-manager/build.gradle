@@ -29,11 +29,11 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.support.magic.dynamic:dynamic-manager'
-    implementation 'androidx.support.magic.core:manager'
-    implementation 'androidx.support.magic.dynamic:dynamic-loader'
+    implementation 'androidx.support.magic.dynamic:dynamic-manager:1.0.2-SNAPSHOT'
+    implementation 'androidx.support.magic.core:manager:1.0.2-SNAPSHOT'
+    implementation 'androidx.support.magic.dynamic:dynamic-loader:1.0.2-SNAPSHOT'
     implementation project(':sample-constant')
 
     compileOnly 'androidx.support.magic.core:common:1.0.2-SNAPSHOT'
-    compileOnly 'androidx.support.magic.dynamic:dynamic-host'
+    compileOnly 'androidx.support.magic.dynamic:dynamic-host:1.0.2-SNAPSHOT'
 }

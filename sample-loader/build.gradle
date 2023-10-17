@@ -26,19 +26,19 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.support.magic.core:loader:1.0.3'
-    implementation 'androidx.support.magic.dynamic:dynamic-loader'
-    implementation 'androidx.support.magic.dynamic:dynamic-loader-impl:1.0.3'
+    implementation 'androidx.support.magic.core:loader:1.0.3-SNAPSHOT'
+    implementation 'androidx.support.magic.dynamic:dynamic-loader:1.0.2-SNAPSHOT'
+    implementation 'androidx.support.magic.dynamic:dynamic-loader-impl:1.0.2-SNAPSHOT'
     implementation project(':sample-constant')
 
-    compileOnly 'androidx.support.magic.core:runtime'
-    compileOnly 'androidx.support.magic.core:activity-container'
-    compileOnly 'androidx.support.magic.core:common'
+    compileOnly 'androidx.support.magic.core:runtime:1.0.2-SNAPSHOT'
+    compileOnly 'androidx.support.magic.core:activity-container:1.0.3-SNAPSHOT'
+    compileOnly 'androidx.support.magic.core:common:1.0.2-SNAPSHOT'
     //下面这行依赖是为了防止在proguard的时候找不到LoaderFactory接口
-    compileOnly 'androidx.support.magic.dynamic:dynamic-host:1.0.3'
+    compileOnly 'androidx.support.magic.dynamic:dynamic-host:1.0.3-SNAPSHOT'
 
-    compileOnly files("${project(":sample-host-lib").getBuildDir()}/outputs/jar/sample-host-lib-debug.jar")
-//    compileOnly files('libs\\lib_app-release.jar')
+//    compileOnly files("${project(":sample-host-lib").getBuildDir()}/outputs/jar/lib_app-release.jar")
+    compileOnly files('libs\\lib_app-release.jar')
 }
 
 //preBuild.dependsOn(":sample-host-lib:jarDebugPackage")

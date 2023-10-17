@@ -35,7 +35,6 @@ import androidx.support.magic.core.loader.infos.PluginParts;
 import androidx.support.magic.core.loader.managers.ComponentManager;
 import androidx.support.magic.core.common.InstalledApk;
 import androidx.support.magic.sample.host.lib.LoadPluginCallback;
-//import androidx.support.magic.sample.host.lib.LoadCallbackImpl;
 
 public class SamplePluginLoader extends ShadowPluginLoader {
 
